@@ -86,7 +86,6 @@ bool locateImageOnScreen(const std::string& imagePath, POINT& locatedPos, bool g
 
     // Check if the best match exceeds the confidence threshold
     if (maxVal >= confidence) {
-        std::cout << maxVal << std::endl;
         locatedPos.x = maxLoc.x + target.cols / 2 + screenLeft; // Adjust for the actual screen position
         locatedPos.y = maxLoc.y + target.rows / 2 + screenTop;
         return true;
