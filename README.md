@@ -1,5 +1,5 @@
 # Locate Image On Screen
-Locate an image on the screen and return its position using [OpenCV](https://github.com/opencv/opencv)
+Locate an image on the all screens and return its position using [OpenCV](https://github.com/opencv/opencv)
 
 ## Example of use
 ```cpp
